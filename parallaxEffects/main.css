@@ -1,0 +1,131 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    
+    display: grid;
+    grid-template-rows: repeat(2,100vh);
+}
+.header{
+    
+    display: flex;
+}
+
+.hdd
+{
+    margin-bottom: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.headtext{
+    background: rgb(7, 7, 7);
+    flex: 1;
+    flex-flow: column;
+    font-size: 250%;
+    color: white;
+    display: flex;
+    flex-flow: column;
+
+}
+.logo{
+    margin: 20%;
+    margin-bottom:0%;
+    flex: 1;
+    background:url(./images/careem-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.text{
+    flex: 2;
+}
+
+.headimage{
+    flex: 1;
+    margin-top: 10%;
+    background: url(./images/cab\ title.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    transition: all 400ms ease-in-out;
+    
+}
+.hdd{
+    transition: all 300ms ease-in-out;
+}
+.main{
+    
+    display: flex;
+}
+.option{
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+
+}
+.option1{
+    flex: 1;
+   
+    display: flex;
+    flex-flow: column;
+}
+.option2{
+    flex: 1;
+   
+    display: flex;
+    flex-flow: column;
+}
+.option3{
+ flex: 1;
+
+display: flex;
+flex-flow: column;
+}
+.hdo{
+    flex: 2;
+    font-size: 400%;
+    color: white;
+    background: black;
+    border-right: 2px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opimg{
+    flex: 4;
+    background: red;
+}
+.text1{
+    flex:3;
+    background:black;
+    color: white;
+    border-right: 2px solid white;
+}
+
+.op1{
+    background: url(./images/silver.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-right: 2px solid black;
+}
+.op2{
+    background: url(./images/gold.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-right: 2px solid black;
+}
+.op3{
+    background: url(./images/platanium.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fadeIn{
+    opacity: 1;
+    transform: translate(0px);
+}
+.fadeOut{
+    opacity: 0;
+    transform: translate(0px);
+}
